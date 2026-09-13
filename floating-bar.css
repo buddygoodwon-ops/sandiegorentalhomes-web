@@ -45,7 +45,7 @@
   transform:translateY(0);
 }
 .footer-btn.active{
-  background:linear-gradient(90deg, #ef3a50, #4f8ef7);
+  background:linear-gradient(90deg, #2b6cf0, #4f8ef7);
   color:#fff;
 }
 .footer-btn svg{
@@ -61,21 +61,21 @@
   width:auto;
   height:44px;
   padding:0 22px;
-  background:linear-gradient(90deg, #ef3a50, #4f8ef7);
+  background:linear-gradient(90deg, #2b6cf0, #4f8ef7);
   color:#fff;
   font-weight:600;
   font-size:14.5px;
   letter-spacing:.01em;
   white-space:nowrap;
   border-radius:999px;
-  box-shadow:0 10px 28px rgba(215,38,61,.35);
+  box-shadow:0 10px 28px rgba(43,108,240,.35);
 }
 .footer-btn.footer-cta span{
   display:block;
   line-height:44px;
 }
 .footer-btn.footer-cta:hover{
-  background:linear-gradient(90deg, #7a5be0, #3f7ef7);
+  background:linear-gradient(90deg, #1e56d6, #3a7ef5);
   transform:translateY(-1px);
 }
 .fb-divider{
