@@ -1,0 +1,12 @@
+{
+  "name": "San Diego Rental Homes",
+  "short_name": "SD Rentals",
+  "description": "San Diego Rental Homes - quality rentals and full-service property management across San Diego.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a0e1f",
+  "theme_color": "#0a0e1f",
+  "icons": [
+    { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
