@@ -122,3 +122,17 @@ a.brand-sub:hover { color: #ffffff; text-decoration-color: var(--blue); }
   .page-footer { flex-direction: column; gap: 8px; }
   .footer-contact { text-align: left; }
 }
+
+/* ── Wood grain hero panel (matches AmericasBestLenders.com) ── */
+.hero-copy {
+  background: #2b1d13 url('wood-bg.jpg') center/cover;
+  box-shadow: inset 0 0 0 2000px rgba(20, 12, 6, .38);
+  padding: 36px 32px 36px 0;
+}
+.hero-copy .lede, .hero-copy .page-lede, .hero-copy .cta-text,
+.hero-copy .feature p, .hero-copy .feature h3 { color: #ffffff; }
+.hero-copy .feature-icon { border-color: rgba(255,255,255,.45); background: rgba(255,255,255,.08); }
+.hero-copy .cta-row { border-top-color: rgba(255,255,255,.25); }
+@media (max-width: 980px) {
+  .hero-copy { padding: 28px 24px; border-radius: 20px; }
+}
