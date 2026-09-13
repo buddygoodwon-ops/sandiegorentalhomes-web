@@ -4,8 +4,8 @@
   "description": "San Diego Rental Homes - quality rentals and full-service property management across San Diego.",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#0a0e1f",
-  "theme_color": "#0a0e1f",
+  "background_color": "#0b0f1e",
+  "theme_color": "#0b0f1e",
   "icons": [
     { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
