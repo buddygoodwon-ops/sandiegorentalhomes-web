@@ -1,5 +1,15 @@
 /* Floating pill footer bar — shared behavior (Glenn 9/3)
    Active-state toggle, home-aware highlight, Share via Web Share API with clipboard fallback. */
+
+/* Legal licensing footer (Glenn 9/13) — division line + license numbers on every page. */
+(function () {
+  var legal = document.createElement('div');
+  legal.className = 'legal-footer';
+  legal.innerHTML = '&copy; 2026 San Diego Rental Homes &middot; A division of <span class="lf-strong">BirdRock Realty</span> &middot; CA DRE #02162832 &middot; NMLS #2282987 &middot; Equal Housing Opportunity';
+  var pf = document.querySelector('.page-footer');
+  if (pf) { pf.appendChild(legal); } else { document.body.appendChild(legal); }
+})();
+
 (function () {
   function clearActive() {
     document.querySelectorAll('.footer-btn').forEach(function (b) { b.classList.remove('active'); });
