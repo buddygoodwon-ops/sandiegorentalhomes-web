@@ -121,3 +121,7 @@ a.brand-sub:hover { color: #ffffff; text-decoration-color: var(--blue); }
   .page-footer { flex-direction: column; gap: 8px; }
   .footer-contact { text-align: left; }
 }
+
+/* Brand title fit override - rental names are longer than SLAMDUNK */
+.brand-title { font-size: 20.4px; }
+.brand-title .suffix { font-size: 13.5px; }
